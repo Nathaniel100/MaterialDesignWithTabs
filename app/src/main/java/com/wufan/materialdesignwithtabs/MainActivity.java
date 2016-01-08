@@ -84,7 +84,7 @@ public class MainActivity extends AppCompatActivity {
 
         @Override
         public CharSequence getPageTitle(int position) {
-            return fragmentTitleList.get(position);
+            return null;
         }
     }
 }
