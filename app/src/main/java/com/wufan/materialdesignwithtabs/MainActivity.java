@@ -62,13 +62,13 @@ public class MainActivity extends AppCompatActivity {
         tabLayout.getTabAt(0).setCustomView(tabOne);
 
         TextView tabTwo = (TextView) LayoutInflater.from(this).inflate(R.layout.custom_tab, null);
-        tabOne.setText("TWO");
-        tabOne.setCompoundDrawablesWithIntrinsicBounds(0, R.mipmap.ic_photo, 0, 0);
+        tabTwo.setText("TWO");
+        tabTwo.setCompoundDrawablesWithIntrinsicBounds(0, R.mipmap.ic_photo, 0, 0);
         tabLayout.getTabAt(1).setCustomView(tabTwo);
 
         TextView tabThree = (TextView) LayoutInflater.from(this).inflate(R.layout.custom_tab, null);
-        tabOne.setText("THREE");
-        tabOne.setCompoundDrawablesWithIntrinsicBounds(0, R.mipmap.ic_contacts, 0, 0);
+        tabThree.setText("THREE");
+        tabThree.setCompoundDrawablesWithIntrinsicBounds(0, R.mipmap.ic_contacts, 0, 0);
         tabLayout.getTabAt(2).setCustomView(tabThree);
     }
 
